@@ -8,11 +8,11 @@ export default function Navbar(props) {
       </a>
       <nav>
         <ul className="navLinks">
-          <li className="Home">
-            <a href="/">Home</a>
-          </li>
           <li className="Projects">
             <a href="/">Projects</a>
+          </li>
+          <li className="Themes">
+            <a href="/">Themes</a>
           </li>
           <li className="About">
             <a href="/">About</a>

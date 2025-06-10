@@ -5,8 +5,9 @@ const HomeLayout = ({ children }) => {
   return (
     <>
       <Navbar title="WordPilot" />
+      <main>{children}</main>
     </>
   );
 };
 
-export default HomeLayout; 
+export default HomeLayout;
